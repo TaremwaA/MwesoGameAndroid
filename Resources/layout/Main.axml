@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:background="@android:color/background_light"
+    android:weightSum="100"
+    android:minHeight="25px">
+    <TextView
+        android:text="Welcome to Mweso Game 2D"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:textColor="#368BED"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/welcomeText"
+        android:layout_marginBottom="25.0dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:id="@+id/txtUserName" />
+    <Button
+        android:text="Play Game"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/BtnPlayStyle"
+        android:id="@+id/btnPlayGame" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:textColor="#368BED"
+        android:gravity="center"
+        android:id="@+id/spacetxt1"
+        android:layout_marginBottom="25.0dp" />
+    <Button
+        android:text="Options"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/BtnOptionStyle"
+        android:id="@+id/btnOptions" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:textColor="#368BED"
+        android:gravity="center"
+        android:id="@+id/spacetxt2"
+        android:layout_marginBottom="25.0dp" />
+    <Button
+        android:text="Help"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/BtnHelpStyle"
+        android:id="@+id/btnHelp" />
+</LinearLayout>

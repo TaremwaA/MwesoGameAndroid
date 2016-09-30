@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--When the user is not pressing the button-->
+  <item android:state_pressed="false">
+    <layer-list>
+      <item android:right="5dp" android:top="5dp">
+        <shape>
+          <corners android:radius="20dp"/>
+          <solid android:color="#B6B6B6"/>
+        </shape>
+      </item>
+
+      <item android:bottom="2dp" android:left="2dp">
+        <shape>
+          <gradient android:angle="270" android:endColor="#3B4FC9" android:startColor="#3C3DB9"/>
+          <corners android:radius="4dp"/>
+          <stroke android:width="1dp" android:color="#AACADA"/>
+          <padding android:bottom="10dp" android:left="10dp" android:top="10dp"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+
+  <!--When the user has pressed the button-->
+  <item android:state_pressed="true">
+    <layer-list>
+      <item android:right="5dp" android:top="5dp">
+        <shape>
+          <corners android:radius="20dp"/>
+          <solid android:color="#C2B3E4"/>
+        </shape>
+      </item>
+
+      <item android:bottom="2dp" android:left="2dp">
+        <shape>
+          <gradient android:angle="180" android:endColor="#2E3BC5" android:startColor="#3E2BD5"/>
+          <corners android:radius="4dp"/>
+          <stroke android:width="1dp" android:color="#DABACA"/>
+          <padding android:bottom="10dp" android:left="10dp" android:top="10dp"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+</selector>

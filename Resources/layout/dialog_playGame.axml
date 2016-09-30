@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#DEDEDC"
+    android:layout_width="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="400dp"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="diplay greeting"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:textColor="#368BED"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/welcomeText"
+        android:layout_marginBottom="25.0dp" />
+    <Button
+        android:text="Play Against PC"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/BtnPlayStyle"
+        android:id="@+id/btnPlayPC" />
+    <Button
+        android:text="Play Against Human"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:background="@drawable/BtnOptionStyle"
+        android:id="@+id/btnPlayHuman" />
+</LinearLayout>
